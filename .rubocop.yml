@@ -1,5 +1,7 @@
 AllCops:
-  TargetRubyVersion: 2.5.1
+  inherit_mode:
+    merge:
+      - Exclude
   Exclude:
     - 'bin/*'
     - 'config/**/*'
