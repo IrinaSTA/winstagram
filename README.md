@@ -1,24 +1,10 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+* This is a clone of instagram, written in Ruby on Rails
 
 * System dependencies
+  Run bundle install to install dependencies
 
-* Configuration
+* Tests
+  To run tests, from project root directory run ```rspec .``` in the terminal
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment
+  This app is deployed at https://winstagram1.herokuapp.com/
