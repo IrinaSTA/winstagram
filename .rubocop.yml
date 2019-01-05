@@ -1,0 +1,21 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'config/**/*'
+    - 'coverage/*'
+    - 'db/*'
+    - 'log/*'
+    - 'public/*'
+    - 'storage/*'
+    - 'test/*'
+    - 'tmp/*'
+    - 'vendor/*'
+    - Gemfile
+    - 'spec/spec_helper.rb'
+    - 'spec/rails_helper.rb'
+Metrics/LineLength:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
