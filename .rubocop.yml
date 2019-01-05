@@ -13,6 +13,7 @@ AllCops:
     - 'test/*'
     - 'tmp/*'
     - 'vendor/*'
+    - 'vendor/bundle/ruby/2.5.0/gems/rainbow-3.0.0/.rubocop.yml'
     - Gemfile
     - 'spec/spec_helper.rb'
     - 'spec/rails_helper.rb'
