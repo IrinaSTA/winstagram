@@ -1,25 +1,15 @@
+inherit_from: .rubocop_todo.yml
+
 AllCops:
-  inherit_mode:
-    merge:
-      - Exclude
+  TargetRubyVersion: 2.5
   Exclude:
-    - 'bin/*'
+    - 'db/**/*'
     - 'config/**/*'
-    - 'coverage/*'
-    - 'db/*'
-    - 'log/*'
-    - 'public/*'
-    - 'storage/*'
-    - 'test/*'
-    - 'tmp/*'
-    - 'vendor/*'
-    - 'vendor/bundle/ruby/2.5.0/gems/rainbow-3.0.0/.rubocop.yml'
-    - Gemfile
+    - 'script/**/*'
+    - 'bin/{rails,rake}'
     - 'spec/spec_helper.rb'
     - 'spec/rails_helper.rb'
-Metrics/LineLength:
-  Enabled: false
-Style/Documentation:
-  Enabled: false
-Style/FrozenStringLiteralComment:
-  Enabled: false
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'vendor/bundle/**/*'
+    - 'spec/**/*.rb'
